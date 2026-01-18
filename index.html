@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body class="dark-theme">
+    <div class="themes">
+        <div id="dark">
+            <img src="assets/images/lua.png" alt="Ícone de Lua">
+        </div>
+
+        <div id="light">
+            <img src="assets/images/sol.png" alt="Ícone de Sol">
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Faça acontecer.<span>|</span> </h1>
+        </header>
+
+        <div class="add-tasks">
+            <input type="text" id="input" placeholder="Adicionar tarefa...">
+            <button id="add">Adicionar!</button>
+        </div>
+
+        <ul id="task-list">
+            <h2 id="task-count"></h2>
+            <p id="clean-tasks">Remover Concluídas</p>
+        </ul>
+    </div>
+
+    <script src="assets/js/temas.js"></script>
+    <script src="assets/js/gerais.js"></script>
+</body>
+</html>
